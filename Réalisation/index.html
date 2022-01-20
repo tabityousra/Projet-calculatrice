@@ -6,30 +6,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculater</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <div class="box">
-        <input type="text" id="display"><br>
+        <div class="input">
+             <input type="text" id="display"><br>
+        </div>
+        <div class="A">
         <button onclick="onClickNumber(1)">1</button>
         <button onclick="onClickNumber(2)">2</button>
         <button onclick="onClickNumber(3)">3</button>
-        <button onclick="resetValues()">C</button><br>
+        <button onclick="onClickOperation('/')">/</button><br>
+        </div>
 
+        <div class="B">
         <button onclick="onClickNumber(4)">4</button>
         <button onclick="onClickNumber(5)">5</button>
-        <button onclick="onClickNumber(6)">6</button><br>
+        <button onclick="onClickNumber(6)">6</button>
+        <button onclick="onClickOperation('*')">*</button><br>
+        </div>
+
+        <div class="C">
         <button onclick="onClickNumber(7)">7</button>
         <button onclick="onClickNumber(8)">8</button>
-        <button onclick="onClickNumber(9)">9</button><br>
+        <button onclick="onClickNumber(9)">9</button> 
+        <button onclick="onClickOperation('-')">-</button><br>
+        </div>
+
+        <div class="D">
         <button onclick="onClickNumber(0)">0</button>
-       
-        <button onclick="onClickOperation('+')">+</button>
-        <button onclick="onClickOperation('-')">-</button>
-        <button onclick="onClickOperation('*')">*</button>
-        <button onclick="onClickOperation('/')">/</button>
-       
+        <button onclick="resetValues()">C</button>
         <button onclick="equal()">=</button>
+        <button onclick="onClickOperation('+')">+</button>
+        </div>
+
     </div>
 
 
