@@ -64,7 +64,7 @@ class Calculatrice {
 
     init(){
         this.#_a = undefined;
-        this.#_b = undefined;
+        this.#_b = undefined;   
         this.#_result = undefined;
         this.#_operation= undefined;
 
