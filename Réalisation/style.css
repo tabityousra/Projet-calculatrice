@@ -10,6 +10,7 @@ body{
     padding-top:  10px;
     padding-bottom:  10px;
     width: 307px;
+    border-radius: 10px;
 
     border: black solid;
 }
@@ -22,10 +23,13 @@ button{
     margin-top: 12px;
     margin-right: 5px;
     width: 67px;
+    border-radius: 20px;
 
 }
 
 input{
     padding-bottom: 20px;
     width: 288PX;
+    border-radius: 15px;
+
 }
